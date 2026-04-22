@@ -12,7 +12,13 @@ html {
       primary: mat.$azure-palette,
       tertiary: mat.$blue-palette,
     ),
-    typography: DM Sans,
+    typography:(
+      plain-family: 'DM Sans',
+      brand-family: 'DM Sans',
+      bold-weight: 600,
+      medium-weight: 500,
+      regular-weight: 400,
+    ),
     density: 0,
   ));
 }

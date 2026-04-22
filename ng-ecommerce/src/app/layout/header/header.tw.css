@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.header{
+  @apply w-full;
+  @apply py-2;
+  @apply shadow-[var(--mat-sys-level2)];
+}
+
+.header-content{
+  @apply w-full;
+  @apply flex items-center justify-between;
+  @apply max-w-[1200px] mx-auto;
+}
