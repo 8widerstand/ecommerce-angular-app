@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, signal} from '@angular/core';
 import {MatButton, MatIconButton} from '@angular/material/button';
 import {MatIcon} from '@angular/material/icon';
 import {RouterLink} from '@angular/router';
@@ -15,5 +15,5 @@ import {RouterLink} from '@angular/router';
   styleUrls: ['./header-actions.scss', 'header-actions.tw.css']
 })
 export class HeaderActions {
-
+    readonly bonjour = signal<string>('bonjour');
 }
